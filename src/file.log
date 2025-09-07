@@ -1,0 +1,76 @@
+2025-06-05 20:59:18,493|ERROR:[app.py:1741        log_exception() ] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/dash.py", line 1090, in index
+    config = self._generate_config_html()
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/dash.py", line 1024, in _generate_config_html
+    return f'<script id="_dash-config" type="application/json">{to_json(self._config())}</script>'
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/_utils.py", line 28, in to_json
+    return to_json_plotly(value)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/plotly/io/_json.py", line 126, in to_json_plotly
+    opts = orjson.OPT_NON_STR_KEYS | orjson.OPT_SERIALIZE_NUMPY
+AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS' (most likely due to a circular import)
+2025-06-05 20:59:18,493|ERROR:[app.py:1741        log_exception() ] Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/dash.py", line 1414, in dispatch
+    ctx.run(
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/_callback.py", line 602, in add_context
+    jsonResponse = to_json(response)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/_utils.py", line 28, in to_json
+    return to_json_plotly(value)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/plotly/io/_json.py", line 126, in to_json_plotly
+    opts = orjson.OPT_NON_STR_KEYS | orjson.OPT_SERIALIZE_NUMPY
+AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS' (most likely due to a circular import)
+2025-06-05 20:59:18,531|ERROR:[app.py:1741        log_exception() ] Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/dash.py", line 1414, in dispatch
+    ctx.run(
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/_callback.py", line 602, in add_context
+    jsonResponse = to_json(response)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/_utils.py", line 28, in to_json
+    return to_json_plotly(value)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/plotly/io/_json.py", line 126, in to_json_plotly
+    opts = orjson.OPT_NON_STR_KEYS | orjson.OPT_SERIALIZE_NUMPY
+AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS' (most likely due to a circular import)
+2025-06-05 20:59:19,538|ERROR:[app.py:1741        log_exception() ] Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/dash.py", line 1414, in dispatch
+    ctx.run(
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/_callback.py", line 602, in add_context
+    jsonResponse = to_json(response)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/dash/_utils.py", line 28, in to_json
+    return to_json_plotly(value)
+  File "/Users/nivedithavudayagiri/anaconda3/lib/python3.10/site-packages/plotly/io/_json.py", line 126, in to_json_plotly
+    opts = orjson.OPT_NON_STR_KEYS | orjson.OPT_SERIALIZE_NUMPY
+AttributeError: partially initialized module 'orjson' has no attribute 'OPT_NON_STR_KEYS' (most likely due to a circular import)
